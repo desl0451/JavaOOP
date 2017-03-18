@@ -1,4 +1,4 @@
-package Chapter02.exercise01;
+package Chapter02.exercise02;
 
 public class Pet {
 	private String name = "ÎŞÃûÊÏ";// êÇ³Æ
