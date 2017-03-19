@@ -5,6 +5,8 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter01"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter02"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter03"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter04"/>
         <property name="context-root" value="/JavaOOP"/>
         <property name="java-output-path" value="/JavaOOP/WebRoot/WEB-INF/classes"/>
     </wb-module>
