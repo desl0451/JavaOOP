@@ -7,6 +7,14 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter02"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter03"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter04"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter05"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter06"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter07"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter08"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter09"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter10"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter11"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Chapter12"/>
         <property name="context-root" value="/JavaOOP"/>
         <property name="java-output-path" value="/JavaOOP/WebRoot/WEB-INF/classes"/>
     </wb-module>
