@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="Demo">
+  <packagedElement xmi:type="uml:Package" xmi:id="_u1EVUQ0fEee02Mw-hrHvLw" name="cn">
+    <packagedElement xmi:type="uml:Package" xmi:id="_u1XQQA0fEee02Mw-hrHvLw" name="jbit">
+      <packagedElement xmi:type="uml:Package" xmi:id="_u1XQQQ0fEee02Mw-hrHvLw" name="pet">
+        <packagedElement xmi:type="uml:Class" xmi:id="_u1XQQg0fEee02Mw-hrHvLw" name="Penguin">
+          <generalization xmi:id="_u47hoA0fEee02Mw-hrHvLw" general="_u1gaMA0fEee02Mw-hrHvLw"/>
+          <ownedAttribute xmi:id="_u7wzMQ0fEee02Mw-hrHvLw" name="sex" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_u759IA0fEee02Mw-hrHvLw" name="print" visibility="public"/>
+          <ownedOperation xmi:id="_u759IQ0fEee02Mw-hrHvLw" name="eat" visibility="public"/>
+          <ownedOperation xmi:id="_u759Ig0fEee02Mw-hrHvLw" name="zhiliao" visibility="public"/>
+          <ownedOperation xmi:id="_u759Iw0fEee02Mw-hrHvLw" name="swimming" visibility="public">
+            <ownedComment xmi:id="_u759JA0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 游泳方法   swimming()
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u1gaMA0fEee02Mw-hrHvLw" name="Pet" isAbstract="true">
+          <ownedAttribute xmi:id="_u8DuIA0fEee02Mw-hrHvLw" name="name" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_u8DuIQ0fEee02Mw-hrHvLw" value="无名氏"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_u8DuIw0fEee02Mw-hrHvLw" name="health" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_u8DuJA0fEee02Mw-hrHvLw"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_u8DuJQ0fEee02Mw-hrHvLw" name="love" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_u8DuJg0fEee02Mw-hrHvLw"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_u8M4EA0fEee02Mw-hrHvLw" name="getName" visibility="public">
+            <ownedParameter xmi:id="_u8M4EQ0fEee02Mw-hrHvLw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8M4Eg0fEee02Mw-hrHvLw" name="setName" visibility="public">
+            <ownedParameter xmi:id="_u8M4Ew0fEee02Mw-hrHvLw" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8M4FA0fEee02Mw-hrHvLw" name="getHealth" visibility="public">
+            <ownedParameter xmi:id="_u8M4FQ0fEee02Mw-hrHvLw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8M4Fg0fEee02Mw-hrHvLw" name="setHealth" visibility="public">
+            <ownedParameter xmi:id="_u8M4Fw0fEee02Mw-hrHvLw" name="health">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8M4GA0fEee02Mw-hrHvLw" name="getLove" visibility="public">
+            <ownedParameter xmi:id="_u8M4GQ0fEee02Mw-hrHvLw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8WpEA0fEee02Mw-hrHvLw" name="setLove" visibility="public">
+            <ownedParameter xmi:id="_u8WpEQ0fEee02Mw-hrHvLw" name="love">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8WpEg0fEee02Mw-hrHvLw" name="print" visibility="public">
+            <ownedComment xmi:id="_u8WpEw0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 输出宠物的信息 方法
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8WpFA0fEee02Mw-hrHvLw" name="eat" visibility="public" isAbstract="true">
+            <ownedComment xmi:id="_u8WpFQ0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 抽象方法eat(),负责宠物吃饭功能
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8WpFg0fEee02Mw-hrHvLw" name="zhiliao" visibility="public" isAbstract="true">
+            <ownedComment xmi:id="_u8WpFw0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 抽象方法zhiliao(),负责宠物治疗方法
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u1gaMQ0fEee02Mw-hrHvLw" name="Master">
+          <ownedComment xmi:id="_u1gaMg0fEee02Mw-hrHvLw">
+            <body>/** 
+ * 主人类
+ */
+</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_u8gaEA0fEee02Mw-hrHvLw" name="name" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_u8gaEQ0fEee02Mw-hrHvLw" value=""/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_u8gaEg0fEee02Mw-hrHvLw" name="money" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_u8gaEw0fEee02Mw-hrHvLw"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_u8gaFA0fEee02Mw-hrHvLw" name="feed" visibility="public">
+            <ownedComment xmi:id="_u8gaFg0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 喂食方法
+ * @param pet
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_u8gaFQ0fEee02Mw-hrHvLw" name="pet" type="_u1gaMA0fEee02Mw-hrHvLw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8gaFw0fEee02Mw-hrHvLw" name="治疗" visibility="public">
+            <ownedComment xmi:id="_u8gaGQ0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 治疗方法
+ * @param pet
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_u8gaGA0fEee02Mw-hrHvLw" name="pet" type="_u1gaMA0fEee02Mw-hrHvLw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8gaGg0fEee02Mw-hrHvLw" name="getPet" visibility="public">
+            <ownedComment xmi:id="_u8pkAA0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 领养宠物方法
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_u8gaGw0fEee02Mw-hrHvLw" name="typeId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_u8gaHA0fEee02Mw-hrHvLw" name="return" type="_u1gaMA0fEee02Mw-hrHvLw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u1gaMw0fEee02Mw-hrHvLw" name="Dog">
+          <generalization xmi:id="_u8pkAQ0fEee02Mw-hrHvLw" general="_u1gaMA0fEee02Mw-hrHvLw"/>
+          <ownedAttribute xmi:id="_u8pkAg0fEee02Mw-hrHvLw" name="strain" visibility="private">
+            <ownedComment xmi:id="_u8pkAw0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 品种
+ */
+</body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_u8pkBA0fEee02Mw-hrHvLw" name="print" visibility="public">
+            <ownedComment xmi:id="_u8pkBQ0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 重写父类方法 1.快捷键 alt+shift+s+v 2.手写
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8pkBg0fEee02Mw-hrHvLw" name="eat" visibility="public">
+            <ownedComment xmi:id="_u8pkBw0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 吃方法 重写 1.方法名相同 2.参数列表相同 3.返回值类型相同或是其子类 4.重写方法不能缩小被重写方法的访问权限
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8pkCA0fEee02Mw-hrHvLw" name="zhiliao" visibility="public">
+            <ownedComment xmi:id="_u8zVAA0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 治疗方法
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_u8zVAQ0fEee02Mw-hrHvLw" name="catchingFlyDisc" visibility="public">
+            <ownedComment xmi:id="_u8zVAg0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 接飞盘方法   swimming()
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u1gaNA0fEee02Mw-hrHvLw" name="Cat">
+          <generalization xmi:id="_u8zVAw0fEee02Mw-hrHvLw" general="_u1gaMA0fEee02Mw-hrHvLw"/>
+          <ownedAttribute xmi:id="_u8zVBA0fEee02Mw-hrHvLw" name="color" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_u8zVBQ0fEee02Mw-hrHvLw" name="eat" visibility="public"/>
+          <ownedOperation xmi:id="_u8zVBg0fEee02Mw-hrHvLw" name="print" visibility="public"/>
+          <ownedOperation xmi:id="_u8zVBw0fEee02Mw-hrHvLw" name="zhiliao" visibility="public"/>
+          <ownedOperation xmi:id="_u8zVCA0fEee02Mw-hrHvLw" name="shangshu" visibility="public">
+            <ownedComment xmi:id="_u88e8A0fEee02Mw-hrHvLw">
+              <body>/** 
+ * 上树方法
+ */
+</body>
+            </ownedComment>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
